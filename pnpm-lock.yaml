@@ -147,8 +147,8 @@ importers:
         specifier: ^5.1.6
         version: 5.1.6
       vite:
-        specifier: ^4.3.0
-        version: 4.3.1(@types/node@16.18.38)(terser@5.19.2)
+        specifier: ^4.3.9
+        version: 4.3.9(@types/node@16.18.38)(terser@5.19.2)
       vitest:
         specifier: ^0.34.3
         version: 0.34.3(jsdom@22.1.0)(terser@5.19.2)
@@ -356,10 +356,10 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^4.2.3
-        version: 4.2.3(vite@4.4.2)(vue@packages+vue)
+        version: 4.2.3(vite@4.3.9)(vue@packages+vue)
       vite:
-        specifier: ^4.4.2
-        version: 4.4.2(@types/node@16.18.38)(terser@5.19.2)
+        specifier: ^4.3.9
+        version: 4.3.9(@types/node@16.18.38)(terser@5.19.2)
 
   packages/shared: {}
 
@@ -1554,14 +1554,14 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vitejs/plugin-vue@4.2.3(vite@4.4.2)(vue@packages+vue):
+  /@vitejs/plugin-vue@4.2.3(vite@4.3.9)(vue@packages+vue):
     resolution: {integrity: sha512-R6JDUfiZbJA9cMiguQ7jxALsgiprjBeHL5ikpXfJCH62pPHtI+JdJ5xWj6Ev73yXSlYl86+blXn1kZHQ7uElxw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.4.2(@types/node@16.18.38)(terser@5.19.2)
+      vite: 4.3.9(@types/node@16.18.38)(terser@5.19.2)
       vue: link:packages/vue
     dev: true
 
@@ -5980,8 +5980,8 @@ packages:
       - terser
     dev: true
 
-  /vite@4.3.1(@types/node@16.18.38)(terser@5.19.2):
-    resolution: {integrity: sha512-EPmfPLAI79Z/RofuMvkIS0Yr091T2ReUoXQqc5ppBX/sjFRhHKiPPF/R46cTdoci/XgeQpB23diiJxq5w30vdg==}
+  /vite@4.3.9(@types/node@16.18.38)(terser@5.19.2):
+    resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -6007,7 +6007,7 @@ packages:
     dependencies:
       '@types/node': 16.18.38
       esbuild: 0.17.19
-      postcss: 8.4.21
+      postcss: 8.4.25
       rollup: 3.26.2
       terser: 5.19.2
     optionalDependencies:
